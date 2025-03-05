@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,git,c++,cmake
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,git,c++,cmake
-
+### outputs ###
+sum-nbo
 ### C++ ###
 # Prerequisites
 *.d
