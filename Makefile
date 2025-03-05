@@ -1,6 +1,6 @@
 #Makefile
 CC = g++
-TARGET = add-nbo
+TARGET = sum-nbo
 OBJS = main.o
 
 all: $(TARGET)
@@ -13,4 +13,4 @@ $(OBJS): main.cpp
 
 clean:
 	rm -f $(OBJS)
-	rm -f sum-nbo
+	rm -f $(TARGET)
