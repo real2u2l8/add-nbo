@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[]){
     if (argc != 3) {
-        printf("사용법: %s <파일1> <파일2>\n", argv[0]);
+        printf("Usage: %s <File a> <File b>\n", argv[0]);
         return 1;
     }
 
@@ -12,7 +12,7 @@ int main(int argc, char* argv[]){
     FILE *bFile = fopen(argv[2], "rb");
 
     if (aFile == NULL || bFile == NULL) {
-        printf("파일을 열 수 없습니다.\n");
+        printf("File does not exist.\n");
         return 1;
     }
 
